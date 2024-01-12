@@ -1,0 +1,79 @@
+{% extends 'ecommerce_app/base/base.html' %}
+{% load static %}
+{% block content %}
+{% include 'ecommerce_app/partial/homesection.html' with title='Contact Us' %}
+
+    <!---BODY CONTENT STARTS HERE-->
+    <section class="content" id="content" name="content">
+
+        <!----contact Section Starts-->
+        <div class="container">
+      
+            <div class="form">
+              <div class="contact-info">
+                <h3 class="title2">Let's get in touch</h3>
+                <p class="text">
+                  We are happy to keep in touch!<br>
+                  Feel free to contact with us
+                </p>
+      
+                <div class="info">
+                  <div class="information">
+                   
+                    <p>Damascus,Mujtahed</p>
+                  </div>
+                  <div class="information">
+                    
+                    <p>suri-wood@gmail.com</p>
+                  </div>
+                  <div class="information">
+                    
+                    <p>+963-953-261-750</p>
+                  </div>
+                </div>
+      
+                <div class="social-media">
+                  <p>Connect with us :</p>
+                  <div class="social-icons">
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </div><br>
+                 
+                </div>
+              </div>
+      
+              <div class="contact-form">
+                <form action="index.html" autocomplete="off" class="contacform">
+                  <h3 class="title2">Contact us</h3>
+                  <div class="input-container">
+                    <input type="text" name="name" class="input" placeholder="username" />
+                  </div>
+                  <div class="input-container">
+                    <input type="email" name="email" class="input" placeholder="Email" />
+                  </div>
+                  <div class="input-container">
+                    <input type="tel" name="phone" class="input" placeholder="Phone" />
+                  </div>
+                  <div class="input-container textarea">
+                    <textarea name="message" class="input" placeholder="Message"></textarea>
+                  </div>
+                  <input type="reset" value="Send" class="btn" />
+                </form>
+              </div>
+            </div>
+          </div>
+        <!----contact Section Ends-->
+    </section>
+    <!-----BODY CONTENT ENDS HERE-->
+
+    {% endblock content %}

@@ -1,0 +1,149 @@
+
+{% extends 'ecommerce_app/base/base.html' %}
+{% load static %}
+{% block content %}
+{% include 'ecommerce_app/partial/homesection.html' with title='Reviews' %}
+
+    <!---BODY CONTENT STARTS HERE-->
+    <section class="content" id="content" name="content">
+
+        <!----Testimonials Section Starts-->
+        <div class="testimonial" id="testimonial">
+            <div class="testimonial-orange-title" id="testimonial-orange">
+                testimonials
+            </div>
+            <div class="testimonial-black-title" id="testi-title">
+                Our Client Reviews
+            </div>
+            <div class="owl-carousel">
+                <div class="testimonial-card" id="testi-card">
+                    <div class="back-img" id="back-img">
+                        <img src="{% static 'base/' %}/images/test1.jpg" alt="testimonial">
+                        <div class="back-img-blur" id="Blur img testimonial">
+                            <img src="{% static 'base/' %}/images/test1.jpg" alt="testimonial">
+                        </div>
+                    </div>
+                    <div class="white-card" id="white-card">
+                        <div class="testi-name" id="testi-name">
+                            khaled massoud
+                        </div>
+                        <div class="testi-job" id="testi-job">
+                            Producer
+                        </div>
+                        <div class="testi-text" id="testi-text">
+                            "The products are really great quality"
+                        </div>
+                        <div class="star-rating" id="star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="white-circle-big" id="white-circle-big">
+                        <div class="circle-img3" id="circle-img">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" id="testi-card">
+                    <div class="back-img" id="back-img">
+                        <img src="{% static 'base/' %}/images/test2.jpg" alt="testimonial">
+                        <div class="back-img-blur" id="Blur img testimonial">
+                            <img src="{% static 'base/' %}/images/test2.jpg" alt="testimonial">
+                        </div>
+                    </div>
+                    <div class="white-card" id="white-card">
+                        <div class="testi-name" id="testi-name">
+                            mohammad khaled
+                        </div>
+                        <div class="testi-job" id="testi-job">
+                            teacher
+                        </div>
+                        <div class="testi-text" id="testi-text">
+                            "It is the best company I have ever dealt with"
+                        </div>
+                        <div class="star-rating" id="star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="white-circle-big" id="white-circle-big">
+                        <div class="circle-img1" id="circle-img">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" id="testi-card">
+                    <div class="back-img" id="back-img">
+                        <img src="{% static 'base/' %}/images/test3.jpg" alt="testimonial">
+                        <div class="back-img-blur" id="Blur img testimonial">
+                            <img src="{% static 'base/' %}/images/test3.jpg" alt="testimonial">
+                        </div>
+                    </div>
+                    <div class="white-card" id="white-card">
+                        <div class="testi-name" id="testi-name">
+                            ahmad ali
+                        </div>
+                        <div class="testi-job" id="testi-job">
+                            barber
+                        </div>
+                        <div class="testi-text" id="testi-text">
+                            "It's a great company, I highly recommend it"
+                        </div>
+                        <div class="star-rating" id="star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="white-circle-big" id="white-circle-big">
+                        <div class="circle-img2" id="circle-img">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" id="testi-card">
+                    <div class="back-img" id="back-img">
+                        <img src="{% static 'base/' %}/images/test1.jpg" alt="testimonial">
+                        <div class="back-img-blur" id="Blur img testimonial">
+                            <img src="{% static 'base/' %}/images/test1.jpg" alt="testimonial">
+                        </div>
+                    </div>
+                    <div class="white-card" id="white-card">
+                        <div class="testi-name" id="testi-name">
+                            mohammad samer
+                        </div>
+                        <div class="testi-job" id="testi-job">
+                            doctor
+                        </div>
+                        <div class="testi-text" id="testi-text">
+                            "I haven't had any problems since I dealt with this company"
+                        </div>
+                        <div class="star-rating" id="star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="white-circle-big" id="white-circle-big">
+                        <div class="circle-img" id="circle-img">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----Testimonials Section Ends-->
+    </section>
+    <!-----BODY CONTENT ENDS HERE-->
+
+    {% endblock content %}

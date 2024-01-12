@@ -1,0 +1,38 @@
+.cont{
+    position: absolute;
+}
+.search_box{
+    border-radius: 40px;
+    background-color: white;
+}
+.frm{
+    margin: 0;
+}
+input[type="search"]{
+    border:none;
+    margin:15px 10px 15px 5px;
+    font-size: 20px;
+    outline: none;
+    color:#17202A;
+}
+
+input[type="submit"]{
+    border:none;
+    margin:15px 10px 15px 5px;
+    font-size: 20px;
+    outline: none;
+    color:#17202A;
+}
+
+
+.search_box button i{
+    font-size: 20px;
+    margin: 0px 10px;
+    color:#0063D4;
+}
+
+.bo{
+    background: transparent;
+    border:none;
+    outline: none;
+}
