@@ -25,7 +25,7 @@ SECRET_KEY = '91$!&#*w@q&@%dbpa&6)*^37)vz7l^w*+!2n=x_5b8dvnks(!z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['waleed8396.pythonanywhere.com']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://dd02-46-213-50-213.eu.ngrok.io'
